@@ -1,17 +1,22 @@
-const add = function() {
-	
+const add = function(A, B) {
+	return (A+B);	
 };
 
-const subtract = function() {
-	
+const subtract = function(A,B) {
+	return (A-B);	
 };
 
-const sum = function() {
-	
+const sum = function(arr) {
+	let summer = 0;
+	for (let iter=0;iter<arr.length;iter++)
+	{
+		summer = summer + arr[iter];	
+	}
+	return summer;
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+	
 };
 
 const power = function() {
